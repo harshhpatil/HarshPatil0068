@@ -6,13 +6,6 @@ Engineering student and developer focused on building **practical, working syste
 - Backend APIs, authentication & databases
 - Linux servers, VPS deployment, and security basics
 
-**Tools**
-- JavaScript, Java, Python, C/C++
-- HTML, CSS, React, Tailwind
-- Node.js, Express
-- MySQL, MongoDB
-- Linux, Nginx, Git, GitHub
-
 **Reach me**
 - Email: patilharsh95hp@gmail.com  
 - GitHub: https://github.com/HarshPatil0068  
