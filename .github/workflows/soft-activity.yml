@@ -2,9 +2,12 @@ name: Soft Activity
 
 on:
   schedule:
-    # Runs at 12:00 UTC every day
     - cron: "0 12 * * *" 
   workflow_dispatch:
+
+# ADD THIS SECTION HERE
+permissions:
+  contents: write
 
 jobs:
   commit:
@@ -12,8 +15,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          # Use a fetch-depth of 0 if you want full history, 
-          # but default is fine for simple logging.
           fetch-depth: 0 
 
       - name: Small heartbeat
@@ -25,6 +26,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add activity.log
-          # The || exit 0 ensures the workflow doesn't fail if there's nothing to commit
           git commit -m "chore: minor activity" || exit 0
           git push
