@@ -8,5 +8,5 @@ Engineering student and developer focused on building **practical, working syste
   
 **Reach me**
 - Email: patilharsh95hp@gmail.com  
-- GitHub: https://github.com/HarshPatil0068  
+- GitHub: https://github.com/HarshPatil0068   
 - LinkedIn: https://linkedin.com/in/harshpatil0068   
